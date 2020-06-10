@@ -12,6 +12,7 @@ h1{
     margin-top: 7px;
     margin-bottom: 0px;
     background-color: #3498db;
+    margin: 0;
 }
 body{
     background-image: url("back.png");
@@ -29,7 +30,7 @@ body{
     font-size: 20px;
     font-family: "montserrat";
     cursor: pointer;
-    margin: 10px;
+    margin: 20px;
     transition: 0.8s;
     position: relative;
     overflow: hidden;
@@ -74,4 +75,55 @@ body{
     height: 0%;
   }
   
+ .search-box{
+   position: absolute;
+   top: 27%;
+   left: 13%;
+   background: #3498db;
+   transform: translate(-50%,-50%);
+   height: 40px;
+   border-radius: 30px;
+   padding: 10px;
+   cursor: pointer;
+
+ }
+
+ .search-box:hover > .search-txt{
+   width: 240px;
+   padding: 0 6px;
+}
+
+
+
+.search-btn{
+  color: #fff;
+  float: center;
+  width: 20px;
+  height: 10px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  
+}
+
+.search-txt{
+  border:none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  
+
+ }
+  }
+
+
+  }
 }
